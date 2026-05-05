@@ -31,20 +31,12 @@ main {
     width: 100vw;
 }
 
-.overall-result > h2{
-    font-size: 2rem;
-}
-
-.overall-result > h3 {
-    font-size: 1.5rem;
-}
-
 .overall-result > h2, .your-result > h1 {
     color: white;
 }
 
 .your-result > h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .your-result > p {
     font-size: 1rem;
@@ -53,12 +45,13 @@ main {
 
 .overall-result {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    height: 45%;
+    height: 40%;
     width: 100%;
     border-radius: 0 0 25px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1rem;
     color: hsl(241, 100%, 89%);
     padding: 1rem;
@@ -71,8 +64,8 @@ main {
 .your-result {
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +77,7 @@ main {
 }
 
 .result-summary {
-    height: 55%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -169,12 +162,23 @@ button {
         width: 100%;
     }
 
+    .your-result > h1 {
+        font-size: 4rem;
+    }
+    
+    .overall-result > h2{
+        font-size: 2rem;
+    }
+
+    .overall-result > h3 {
+        font-size: 1.5rem;
+    }
+
     .overall-result {
         width: 50%;
         height: 100%;
         border-radius: 2rem;
         justify-content: space-evenly;
-        text-align: center;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
