@@ -145,7 +145,7 @@ button:hover, button:focus {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 40rem) {
     body {
         background-color: hsl(221, 100%, 96%);
         min-height: 100vh;
