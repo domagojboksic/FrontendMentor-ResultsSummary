@@ -46,6 +46,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     color: hsl(241, 100%, 89%);
+    padding: 0 3rem;
 }
 
 .your-result {
@@ -100,5 +101,14 @@ button {
 }
 
 #reaction {
-    
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+#memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+#verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+#visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
 }
