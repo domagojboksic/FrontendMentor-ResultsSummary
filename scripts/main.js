@@ -6,7 +6,7 @@ fetch("data.json")
 .then(function(data) {
     let sum = 0;
     let validItemsCount = 0;
-    for(i = 0; i < data.length; i++) {
+    for(let i = 0; i < data.length; i++) {
         const categoryName = data[i].category.toLowerCase()
         
         let category = document.querySelector(`#${categoryName}`);
@@ -27,7 +27,7 @@ fetch("data.json")
 
     let overallScore = document.querySelector('.overall-result .your-result h1')
     if (overallScore && validItemsCount > 0) {
-        overallScore.textContent = Math.floor(sum / i);
+        overallScore.textContent = Math.floor(sum / validItemsCount);
     }
 })
 .catch(error => console.error("Greška: ", error));
