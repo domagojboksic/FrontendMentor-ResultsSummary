@@ -25,7 +25,7 @@ fetch("data.json")
         validItemsCount++;
     }
 
-    let overallScore = document.querySelector('.overall-result .your-result h1')
+    let overallScore = document.querySelector('.overall-result .your-result h2')
     if (overallScore && validItemsCount > 0) {
         overallScore.textContent = Math.floor(sum / validItemsCount);
     }

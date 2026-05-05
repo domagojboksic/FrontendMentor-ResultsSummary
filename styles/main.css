@@ -30,11 +30,11 @@ main {
     width: 100%;
 }
 
-.overall-result > h2, .your-result > h1 {
+.overall-result > h3, .your-result > h2 {
     color: white;
 }
 
-.your-result > h1 {
+.your-result > h2 {
     font-size: 3rem;
 }
 .your-result > p {
@@ -164,15 +164,15 @@ button:hover, button:focus {
         width: 100%;
     }
 
-    .your-result > h1 {
+    .your-result > h2 {
         font-size: 4rem;
     }
     
-    .overall-result > h2{
+    .overall-result > h3{
         font-size: 2rem;
     }
 
-    .overall-result > h3 {
+    .overall-result > h1 {
         font-size: 1.5rem;
     }
 
