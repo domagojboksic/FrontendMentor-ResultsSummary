@@ -46,7 +46,6 @@ main {
     align-items: center;
     justify-content: space-evenly;
     color: hsl(241, 100%, 89%);
-    padding: 0 3rem;
 }
 
 .your-result {
@@ -65,7 +64,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .category {
