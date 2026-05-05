@@ -57,7 +57,7 @@ main {
 }
 
 .result-description {
-    widith: 70%;
+    width: 70%;
 }
 
 .your-result {
@@ -107,14 +107,12 @@ main {
     justify-content: center;
 }
 
-button {
-    height: 4rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    background-color: hsl(224, 30%, 27%);
+.your-score {
+    color: hsl(224, 30%, 27%);
+}
+
+.max-score {
+    color: hsla(224, 30%, 27%, 0.5);
 }
 
 #reaction {
@@ -132,4 +130,14 @@ button {
 #visual {
     background-color: hsla(234, 85%, 45%, 0.1);
     color: var(--primary-visual-color);
+}
+
+button {
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: hsl(224, 30%, 27%);
 }
