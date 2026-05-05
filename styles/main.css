@@ -45,6 +45,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     color: hsl(241, 100%, 89%);
+    padding: 2rem;
 }
 
 .your-result {
@@ -52,8 +53,10 @@ main {
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
-    align-content: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .result-summary {
