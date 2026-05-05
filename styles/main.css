@@ -3,6 +3,7 @@
     --primary-memory-color: hsl(39, 100%, 56%);
     --primary-verbal-color: hsl(166, 100%, 37%);
     --primary-visual-color: hsl(234, 85%, 45%);
+    --main-gradient: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 * {
@@ -43,7 +44,7 @@ main {
 }
 
 .overall-result {
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: var(--main-gradient);
     height: 40%;
     border-radius: 0 0 25px 25px;
     display: flex;
@@ -85,7 +86,6 @@ main {
 .category {
     display: flex;
     justify-content: space-between;
-    background-color: gray;
     border-radius: 0.5rem;
     height: 4rem;
     padding: 1rem;
@@ -142,7 +142,7 @@ button {
 }
 button:hover, button:focus {
     cursor: pointer;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: var(--main-gradient);
 }
 
 @media (min-width: 40rem) {
